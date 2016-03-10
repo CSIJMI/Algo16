@@ -20,11 +20,17 @@
 <!-- Mobile Internet Explorer ClearType Technology -->
 <!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
 
+
+
 <!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="csshake.min.css">
 <link href="_include/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Main Style -->
 <link href="_include/css/main.css" rel="stylesheet">
+
+
+<link href="_include/css/newstyles.css" rel="stylesheet">
 
 <!-- Supersized -->
 <link href="_include/css/supersized.css" rel="stylesheet">
@@ -60,6 +66,7 @@
 <link rel="stylesheet" href="timer/compiled/flipclock.css">
 <!-- Modernizr -->
 <script src="_include/js/modernizr.js"></script>
+<script src="_include/js/main.js"></script>
 
 <!-- Analytics -->
 <script type="text/javascript">
@@ -105,7 +112,7 @@
                 
         <nav id="menu">
             <ul id="menu-nav">
-                <li class="current"><a href="#home-slider">Home</a></li>
+                <!--<li class="current"><a href="#home-slider">Home</a></li>-->
                 <li><a href="events.html" class="external">Events</a></li>
                  <li><a href="gallery.html" class="external">Gallery</a></li>
                 <li><a href="about.html" class="external">About Us</a></li>
@@ -122,46 +129,36 @@
 
 <body>
 
-<!-- This section is for Splash Screen -->
-<div class="ole">
-<section id="jSplash">
-	<div id="circle"></div>
-</section>
+
+<div style="height:90%;width:100%;">
+    <img style="height:100%;width:100%  ;" src="_include/img/slider-images/image-01.jpg">
 </div>
-<!-- End of Splash Screen -->
 
-<!-- Homepage Slider -->
-<div id="home-slider">	
-    <div class="overlay"></div>
-
-    <div class="slider-text">
-    	<div id="slidecaption"><div class="slide-content">Algorhythm 2016</div></div>
-    </div>   
-	
-	<div class="control-nav">
-        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
-        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
-        <ul id="slide-list"></ul>
+</div>
+<div class="logo-underlay">
+</div>
+<div class="logo">
+    <a href="#home-slider">
+    <img style="height:100%;width:100%  ;" src="images/ar.png">
+    </a>
+</div>
+<!--
+<div style="margin: 0;position: absolute;top: 40%;width:100%;text-align:center;" >
+        <img class="overlay-img shake-rotate shake-constant shake-constant--hover" style="border-radius:25px; margin-right: 30px;" src="_include/img/work/thumbs/A-logo.png">
+        <img class="overlay-img shake-rotate shake-constant shake-constant--hover" style="border-radius:25px; margin-right: 30px;" src="_include/img/work/thumbs/L-logo.png">
+        <img class="overlay-img shake-chunk shake-constant shake-constant--hover" style="border-radius:25px; margin-right: 30px;" src="_include/img/work/thumbs/G-logo.png">
+        <img class="overlay-img shake shake-constant shake-constant--hover" style="border-radius:25px;" src="_include/img/work/thumbs/O-logo.png">
         
-        <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
-    </div>
-</div>
-<!-- End Homepage Slider -->
-
-
-
+    </div>  -->
 
 <!-- About Section -->
 
-
-<div class="clock" style="height: 100px;"></div>
+<div class="clock" style=""></div>
 	<div class="message"></div>
 
 
-
-
 <!-- Socialize -->
-    <div id="social-area" class="page-alternate" style="padding: 0px; margin-top: -25px">
+    <div id="social-area" class="page-alternate" style="bottom: 0px;position: absolute;padding: 0px;width: 100%;">
         <div class="container">
             <div class="row">
                 <div class="span12">
@@ -180,12 +177,12 @@
 
 
 <!-- Footer -->
-
-
 <!-- Back To Top -->
+
 <a id="back-to-top" href="#">
 	<i class="font-icon-arrow-simple-up"></i>
 </a>
+
 <!-- End Back to Top -->
 
 

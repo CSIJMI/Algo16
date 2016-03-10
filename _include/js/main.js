@@ -49,7 +49,7 @@ BRUSHED.listenerMenu = function(){
 BRUSHED.slider = function(){
 	$.supersized({
 		// Functionality
-		slideshow               :   1,			// Slideshow on/off
+		slideshow               :   0,			// Slideshow on/off
 		autoplay				:	1,			// Slideshow starts playing automatically
 		start_slide             :   1,			// Start slide (0 is random)
 		stop_loop				:	0,			// Pauses slideshow on last slide
@@ -77,7 +77,7 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '_include/img/slider-images/image01.jpg', title : '<div class="slide-content">ALGORHYTHM</div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/image-01.jpg', title : '<div class="slide-content">ALGORHYTHM</div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/image02.jpg', title : '<div class="slide-content">ALGORHYTHM</div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/image03.jpg', title : '<div class="slide-content">ALGORHYTHM</div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/image04.jpg', title : '<div class="slide-content">ALGORHYTHM</div>', thumb : '', url : ''}  
